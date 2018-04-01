@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fghjkl.zhoumo_two.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#de8e25"
+        android:weightSum="7"
+        >
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/aa"
+            />
+        <TextView
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="报价"
+            android:textSize="15sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="确认"
+            android:textSize="15sp"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        报价："
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="请输入商品报价"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     元/件"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+                android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       货源状态  "
+            android:textSize="15sp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="现货"
+            android:textSize="15sp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="预定"
+            android:layout_marginLeft="100dp"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:background="#ffffff"
+        >
+        <Button
+            android:id="@+id/one"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/anima"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="原厂件"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_marginRight="5dp"
+            android:background="@drawable/anima"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="品牌件"
+            android:layout_weight="1"
+            />
+        <Button
+            android:background="@drawable/anima"
+            android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="副厂件"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_marginRight="5dp"
+            android:background="@drawable/anima"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="台湾件"
+            android:layout_weight="1"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:background="#ffffff"
+        android:layout_marginBottom="10dp"
+        >
+        <Button
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/anima"
+            android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="配套件"
+            android:layout_weight="1"
+            />
+        <Button
+            android:background="@drawable/anima"
+            android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="拆车件"
+            android:layout_weight="1"
+            />
+        <Button
+            android:background="@drawable/anima"
+            android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="高仿件"
+            android:layout_weight="1"
+            />
+        <Button
+            android:background="@drawable/anima"
+            android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="原厂下线"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+    <EditText
+
+        android:layout_margin="5dp"
+        android:background="@drawable/rinima"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="输入补充说明(最多20个字)"
+        android:gravity="top"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确认报价"
+            android:background="#d4981f"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:id="@+id/dian"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
